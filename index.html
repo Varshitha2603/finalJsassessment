@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Dashboard Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <div class="icon">
+                <i class="fa-regular fa-note-sticky" style="color: black;"></i>
+            </div>
+            <div class="h-para">
+                <p>DCKAP Palli Inventory Dashboard</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <h1>DASHBOARD</h1>
+    <div class="dashboard">
+        <!-- Example Products -->
+        <div class="d-box">
+            <div class="d-box1 box">
+                <p class="" id="d-product">Books</p>
+                <p>45</p>
+            </div>
+            <div class="icon">
+                <p><i class="fa-solid fa-book"></i></p>
+            </div>
+        </div>
+        <div class="d-box">
+            <div class="d-box2 box">
+                <p class="" id="d-product">Rhino Toys</p>
+                <p>40</p>
+            </div>
+            <div class="icon">
+                <p><i class="fa-solid fa-cart-shopping"></i></p>
+            </div>
+        </div>
+        <div class="d-box">
+            <div class="d-box3 box">
+                <p class="" id="d-product">Bags</p>
+                <p>30</p>
+            </div>
+            <div class="icon">
+                <p><i class="fa-solid fa-bag-shopping"></i></p>
+            </div>
+        </div>
+    </div>
+    <!-- Buttons -->
+    <div class="buttons">
+        <button class="addProducctbtn" id="addProducctbtn">Add Product</button>
+        <button class="upadtebtn" id="updatebtn">Update Inventory</button>
+    </div>
+
+    <!-- Chart -->
+    <!-- <div class="pie_chart" id="pie_chart">-->
+        <div id="chart_container" class="chart_container">
+            <canvas id="bar_chart"></canvas>
+        </div>
+    <!--</div> -->
+
+    <!-- add product -->
+    <div class="appProduct"></div>
+
+    <!-- update inventory -->
+    <div class="update"></div>
+
+    <!-- table  -->
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Recipient</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

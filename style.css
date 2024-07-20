@@ -1,0 +1,190 @@
+.header
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: blanchedalmond;
+}
+
+.header .h-para p 
+{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.dashboard
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    /* background-color: blanchedalmond; */
+}
+
+.dashboard .d-box
+{
+    width: 20%;
+    background-color: rgb(235, 221, 200);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 10px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(163, 139, 103);
+}
+
+.dashboard .d-box .box {
+    font-size: 18px;
+    /* padding: 0px 0px 0px 10px; */
+}
+
+.dashboard .d-box .icon {
+    font-size: 22px;
+    /* padding: 0px 15px 0px 0px; */
+    color: rgb(145, 96, 5);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.buttons button {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(226, 208, 175);
+    border: none;
+    border-radius: 5px;
+    color: rgba(189, 117, 65, 0.514);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.chart_container {
+    width: 700px;
+    background-color: rgb(253, 204, 169);
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/* --------- */
+.inventory_form {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(25%, 30%);
+    background-color: wheat;
+    padding: 25px;
+    gap: 10px;
+    /* line-height: 2; */
+    border-radius: 5px;
+}
+
+.inventory_form button {
+    background-color: rgb(223, 180, 125);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(189, 117, 65, 0.514);
+}
+
+.inventory_form .close {
+    position: relative;
+    top: -110px;
+    left: 60px;
+}
+
+/* --------- */
+
+.product_form 
+{
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(25%, 30%);
+    background-color: wheat;
+    padding: 25px;
+    gap: 10px;
+    /* line-height: 2; */
+    border-radius: 5px;    
+}
+.product_form button {
+    background-color: rgb(223, 180, 125);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(189, 117, 65, 0.514);
+}
+
+.product_form .close {
+    position: relative;
+    top: -80px;
+    left: 60px;
+}
+
+
+/* ------------ */
+.table {
+    padding: 20px 0px 0px 0px;
+}
+.table table {
+    /* border-radius: 10px; */
+    width: 60%;
+    /* background-color: brown; */
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid sandybrown;
+}
+
+thead {
+    border-radius: 10px;
+    background-color: rgb(185, 150, 120);
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+tbody {
+    text-align: center;
+}
+
+.table table th, td {
+    border: 1px solid sandybrown;
+    padding: 10px;
+}
+
+
+/* ---- */
+
+.dis{
+    display: block;   
+}
+.dis body {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.demo{
+    display: none;
+}
+
+
